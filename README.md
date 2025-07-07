@@ -9,7 +9,7 @@
 ### 🚀 About Me
 
 - 🔭 **Currently Building:**  
-  [**Skillset**](https://github.com/aayushxr/skillset) – A platform for students and teachers to collaborate, share courses, and engage academically.
+  [**HomeOrbit**]([https://github.com/aayushxr/skillset](https://github.com/Aayush-engineer/HomeOrbit.git)) – A full-stack rental apartment application built with Next.js, Node.js, and modern web technologies.
 
 - 🧠 **Currently Learning:**  
   Low-Level Design (LLD) • System Design • Production-Ready Architecture • DSA Patterns & Problem Solving
