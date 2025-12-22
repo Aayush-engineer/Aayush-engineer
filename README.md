@@ -1,5 +1,5 @@
 # 💫 Hi 👋, I'm Aayush Kumar  
-**A passionate Full-Stack Developer from India | 2025 CS Graduate**
+**A passionate Backend Developer from India | 2025 CS Graduate**
 
 ✉️ **Reach Me At:** aayushkumarsingh245@gmail.com  
 🎯 **Actively Seeking Full-Time SDE Roles | Ready to Join Immediately**
