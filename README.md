@@ -1,7 +1,7 @@
 # 💫 Hi 👋, I'm Aayush Kumar  
 **A passionate Full-Stack Developer from India | 2025 CS Graduate**
 
-✉️ **Reach Me At:** singhayushman789@gmail.com  
+✉️ **Reach Me At:** aayushkumarsingh245@gmail.com  
 🎯 **Actively Seeking Full-Time SDE Roles | Ready to Join Immediately**
 
 ---
@@ -9,7 +9,7 @@
 ### 🚀 About Me
 
 - 🔭 **Currently Building:**  
-  [**HomeOrbit**]([https://github.com/aayushxr/skillset](https://github.com/Aayush-engineer/HomeOrbit.git)) – A full-stack rental apartment application built with Next.js, Node.js, and modern web technologies.
+  [**LoomIQ**]([(https://github.com/Aayush-engineer/LoomIQ.git)]) – A multi-agent ai orchestrator system.
 
 - 🧠 **Currently Learning:**  
   Low-Level Design (LLD) • System Design • Production-Ready Architecture • DSA Patterns & Problem Solving
@@ -27,7 +27,7 @@
   Web App Architecture • Full-Stack Development • Student-Oriented Product Design
 
 - 📫 **Email Me At:**  
-  **singhayushman789@gmail.com**
+  **aayushkumarsingh245@gmail.com**
 
 - 😄 **Pronouns:** He/Him  
 - ⚡ **Fun Fact:** Most of my project ideas are inspired by everyday problems. 🚀
