@@ -17,9 +17,12 @@ Built production systems from scratch — no shortcuts, no black boxes.
 
 ## 🤝 Open Source
 
-**[Mastra](https://github.com/mastra-ai/mastra/pull/13961)** (13k+ ⭐)
-- Submitted PR for multi-agent research pipeline example
-
+**[Mastra](https://github.com/mastra-ai/mastra)** (13k+ ⭐ · YC-backed)
+- Fixed impact:high bug — EXECUTE_TOOL_ROUTE now correctly 
+  resolves dynamic agent tools via toolsResolver fallback
+- PR reviewed directly by CTO
+- [PR #13989](https://github.com/mastra-ai/mastra/pull/13989)
+  
 ## 🛠️ Tech Stack
 ```
 Languages:  TypeScript · C++ · Python · JavaScript · SQL
