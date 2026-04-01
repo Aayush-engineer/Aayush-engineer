@@ -1,42 +1,46 @@
 # Hi, I'm Aayush Kumar 👋
-
-Backend engineer specializing in distributed systems and AI infrastructure.
+AI Systems Engineer · Backend Engineer
+Specializing in multi-agent orchestration and distributed LLM infrastructure.
 Built production systems from scratch — no shortcuts, no black boxes.
 
 ## 🚀 What I've Built
 
-**[LoomIQ](https://github.com/Aayush-engineer/LoomIQ)** — Multi-Agent AI Orchestration Engine
-- Routes tasks across Groq + Mistral with <50ms acknowledgment
+**[LoomIQ](https://github.com/Aayush-engineer/LoomIQ)** — Multi-Agent AI Orchestration Engine · [Live Demo](https://mind-forge-three.vercel.app/)
+- Production-grade engine routing tasks across multiple LLMs via a 6-factor scoring system (latency, cost, capability, success rate, complexity, idle state)
 - 4 collaboration strategies: Sequential, Parallel, Hierarchical, Consensus
-- Built without LangChain to understand orchestration internals deeply
-- Atomic execution locks, 3x exponential backoff, SSE real-time streaming
+- Atomic execution locks, 3x exponential backoff, <50ms acknowledgment, SSE streaming with polling fallback
+- Built without LangChain — to understand orchestration internals at the systems level
 
-**[ChatFlux](https://github.com/Aayush-engineer/chatflux)** — Distributed Real-Time Chat
-- Socket.IO → Redis Pub/Sub → Kafka → MongoDB pipeline
-- Horizontal scaling, Prometheus observability, Docker Compose
+**[ChatFlux](https://github.com/Aayush-engineer/chatflux)** — Distributed Real-Time Chat Platform
+- Socket.IO → Redis Pub/Sub → Kafka → MongoDB pipeline; horizontally scalable across instances
+- Prometheus tracking 5 live metrics, Docker Compose, Nginx reverse proxy
 
-## 🤝 Open Source
+**[RAG Support Engine](https://github.com/Aayush-engineer/rag-support-engine)** — Production-Style RAG Pipeline
+- PDF → Gemini embeddings → Chroma vector DB → Groq LLaMA generation
+- Cross-language retrieval (Hindi queries find English docs), grounded generation with correct refusal
 
-**[Mastra](https://github.com/mastra-ai/mastra)** (13k+ ⭐ · YC-backed)
-- Fixed impact:high bug — EXECUTE_TOOL_ROUTE now correctly 
-  resolves dynamic agent tools via toolsResolver fallback
-- PR reviewed directly by CTO
-- [PR #13989](https://github.com/mastra-ai/mastra/pull/13989)
-  
+## 🤝 Open Source — Mastra AI (22k+ ⭐ · YC-backed)
+
+**2 PRs merged into @mastra/core · 5 active · Reviewed by CTO**
+
+- **[PR #14466](https://github.com/mastra-ai/mastra/pull/14466)** — Fixed impact:high production bug in `prepareToolsAndToolChoice()` — structured-output agents were silently failing when workflow tools injected; fix unblocked Gemini structured output for all Mastra users
+- **[PR #14306](https://github.com/mastra-ai/mastra/pull/14306)** — Added `prettyPrint` to `PinoLogger` — single-line JSON for Datadog/Loki/CloudWatch without rewiring all transports
+- Active PRs: hybrid search fallback, JSON Schema draft-2020-12, configurable agent memory instructions, MCP request context
+
 ## 🛠️ Tech Stack
 ```
-Languages:  TypeScript · C++ · Python · JavaScript · SQL
-Backend:    Node.js · Express · Kafka · Redis · WebSockets · SSE · Docker
-Databases:  PostgreSQL · MongoDB · Prisma
-AI/LLM:     Multi-Agent Systems · Groq · Mistral · LLM Orchestration
+AI Systems:  Multi-Agent Orchestration · RAG · LLM Tool Use · Agent Memory · Embeddings · Vector DB · Evals
+Backend:     Node.js · TypeScript · Express · Redis · Kafka · WebSockets · SSE · Docker · Microservices  
+Databases:   PostgreSQL · MongoDB · Prisma · TypeORM
+Languages:   TypeScript · JavaScript · Python · C++ · SQL
+CS:          System Design · Distributed Systems · LLD · DSA · Concurrency
 ```
 
 ## 📊 Stats
 
-![LeetCode](https://leetcard.jacoblin.cool/ayush_kumar21_?theme=dark)
+[![LeetCode](https://img.shields.io/badge/LeetCode-600%2B%20problems-orange)](https://leetcode.com/u/ayush_kumar21_/)
+[![GitHub followers](https://img.shields.io/github/followers/Aayush-engineer?style=social)](https://github.com/Aayush-engineer)
 
 ## 📫 Contact
 
-- Email: aayushkumarsingh245@gmail.com
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/aayush-kumar-aba034239/)
-- Location: Jodhpur, India | Open to Remote
+[LinkedIn](https://www.linkedin.com/in/aayush-kumar-aba034239/) · aayushkumarsingh245@gmail.com · Open to remote and onsite India
