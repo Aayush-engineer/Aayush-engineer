@@ -21,7 +21,7 @@ Built production systems from scratch — no shortcuts, no black boxes.
 
 ## 🤝 Open Source — Mastra AI (22k+ ⭐ · YC-backed)
 
-**2 PRs merged into @mastra/core · 5 active · Reviewed by CTO**
+**9 PRs merged into @mastra/core · 2 active · Reviewed by CTO**
 
 - **[PR #14466](https://github.com/mastra-ai/mastra/pull/14466)** — Fixed impact:high production bug in `prepareToolsAndToolChoice()` — structured-output agents were silently failing when workflow tools injected; fix unblocked Gemini structured output for all Mastra users
 - **[PR #14306](https://github.com/mastra-ai/mastra/pull/14306)** — Added `prettyPrint` to `PinoLogger` — single-line JSON for Datadog/Loki/CloudWatch without rewiring all transports
