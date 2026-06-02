@@ -1,46 +1,88 @@
-# Hi, I'm Aayush Kumar 👋
-AI Systems Engineer · Backend Engineer
-Specializing in multi-agent orchestration and distributed LLM infrastructure.
-Built production systems from scratch — no shortcuts, no black boxes.
+<div align="center">
 
-## 🚀 What I've Built
+# Aayush Kumar
 
-**[LoomIQ](https://github.com/Aayush-engineer/LoomIQ)** — Multi-Agent AI Orchestration Engine · [Live Demo](https://mind-forge-three.vercel.app/)
-- Production-grade engine routing tasks across multiple LLMs via a 6-factor scoring system (latency, cost, capability, success rate, complexity, idle state)
+**AI Systems Engineer · Backend Engineer · Agentic Infrastructure**
+
+[![Email](https://img.shields.io/badge/email-aayushkumarsingh245%40gmail.com-informational?style=flat-square)](mailto:aayushkumarsingh245@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aayush-kumar-aba034239/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-600%2B-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/ayush_kumar21_/)
+[![GitHub](https://img.shields.io/github/followers/Aayush-engineer?label=Follow&style=flat-square)](https://github.com/Aayush-engineer)
+
+</div>
+
+---
+
+I build LLM infrastructure and multi-agent systems — evaluation pipelines, orchestration engines, and observability tooling. I avoid framework abstractions where possible and work at the systems level to understand what's actually happening.
+
+**Open to:** Backend Engineer · Agentic AI Engineer · AI Systems Engineer *(not core ML/research)*
+
+---
+
+## Open Source — Mastra AI (24k ⭐ · YC-backed)
+
+**12 PRs merged · #51 of 467 total contributors · #29 of 500+ in last 6 months · reviewed by CTO**
+
+| PR | Description |
+|---|---|
+| [#14466](https://github.com/mastra-ai/mastra/pull/14466) | Fixed `impact:high` bug in `prepareToolsAndToolChoice()` — structured-output agents silently failing when workflow tools injected; unblocked Gemini structured output for all users |
+| [#14306](https://github.com/mastra-ai/mastra/pull/14306) | Added `prettyPrint` to `PinoLogger` — single-line JSON for Datadog/Loki/CloudWatch without rewiring transports |
+| +10 more | Memory persistence across chained agent steps, browser thread init stability, JSON schema compatibility, production observability |
+
+---
+
+## Projects
+
+### [TraceMind](https://github.com/Aayush-engineer/TraceMind) — LLM Observability & Eval Platform · [live ↗](https://tracemind.vercel.app)
+`Python` `FastAPI` `React` `ChromaDB` `Groq` `asyncio`
+
+- Parallel LLM-as-judge eval engine — 100 cases in 17s via `asyncio.Semaphore`
+- Per-claim hallucination detector: extract → ground → score, 4 error types
+- Mann-Whitney U A/B testing with bootstrap 95% CI — validated against scipy
+- Multi-key Groq rotation (5 keys, auto-failover); bulk batching cuts LLM costs by 99%
+- ReAct agent with ChromaDB semantic memory · response control hooks (block/retry/flag)
+- **76/76 unit tests · 44/44 e2e checks passing · 11 GitHub stars**
+
+### [LoomIQ](https://github.com/Aayush-engineer/LoomIQ) — Multi-Agent Orchestration Engine · [live ↗](https://mind-forge-three.vercel.app/)
+`TypeScript` `Node.js` `PostgreSQL` `Groq` `Mistral` `SSE`
+
+- Dynamic LLM routing via 6-factor scoring (latency, cost, capability, success rate, complexity, idle state) — no LangChain
+- Zero duplicate executions under 100+ concurrent tasks via atomic execution lock
+- 3× exponential backoff (1s → 2s → 4s) · <50ms HTTP ack before any LLM call
 - 4 collaboration strategies: Sequential, Parallel, Hierarchical, Consensus
-- Atomic execution locks, 3x exponential backoff, <50ms acknowledgment, SSE streaming with polling fallback
-- Built without LangChain — to understand orchestration internals at the systems level
+- JWT + RBAC (4 roles) · SSE streaming with polling fallback
 
-**[ChatFlux](https://github.com/Aayush-engineer/chatflux)** — Distributed Real-Time Chat Platform
-- Socket.IO → Redis Pub/Sub → Kafka → MongoDB pipeline; horizontally scalable across instances
-- Prometheus tracking 5 live metrics, Docker Compose, Nginx reverse proxy
+### [ChatFlux](https://github.com/Aayush-engineer/chatflux) — Distributed Real-Time Chat
+`Socket.IO` `Redis` `Kafka` `MongoDB` `Docker` `Prometheus`
 
-**[RAG Support Engine](https://github.com/Aayush-engineer/rag-support-engine)** — Production-Style RAG Pipeline
-- PDF → Gemini embeddings → Chroma vector DB → Groq LLaMA generation
-- Cross-language retrieval (Hindi queries find English docs), grounded generation with correct refusal
+- Socket.IO → Redis Pub/Sub → Kafka → MongoDB pipeline; horizontally scalable
+- Prometheus tracking 5 live metrics · Docker Compose · Nginx reverse proxy
 
-## 🤝 Open Source — Mastra AI (22k+ ⭐ · YC-backed)
+---
 
-**9 PRs merged into @mastra/core · 2 active · Reviewed by CTO**
+## Stack
 
-- **[PR #14466](https://github.com/mastra-ai/mastra/pull/14466)** — Fixed impact:high production bug in `prepareToolsAndToolChoice()` — structured-output agents were silently failing when workflow tools injected; fix unblocked Gemini structured output for all Mastra users
-- **[PR #14306](https://github.com/mastra-ai/mastra/pull/14306)** — Added `prettyPrint` to `PinoLogger` — single-line JSON for Datadog/Loki/CloudWatch without rewiring all transports
-- Active PRs: hybrid search fallback, JSON Schema draft-2020-12, configurable agent memory instructions, MCP request context
-
-## 🛠️ Tech Stack
 ```
-AI Systems:  Multi-Agent Orchestration · RAG · LLM Tool Use · Agent Memory · Embeddings · Vector DB · Evals
-Backend:     Node.js · TypeScript · Express · Redis · Kafka · WebSockets · SSE · Docker · Microservices  
-Databases:   PostgreSQL · MongoDB · Prisma · TypeORM
-Languages:   TypeScript · JavaScript · Python · C++ · SQL
-CS:          System Design · Distributed Systems · LLD · DSA · Concurrency
+AI / LLM   Multi-Agent Orchestration · RAG · LLM Tool Use · Evals · Observability · Vector DB · Agent Memory
+Backend    Node.js · TypeScript · Python · FastAPI · Express · Redis · Kafka · WebSockets · SSE · Docker
+Database   PostgreSQL · MongoDB · ChromaDB · Prisma · TypeORM
+CS         System Design · Distributed Systems · LLD · DSA · Concurrency
 ```
 
-## 📊 Stats
+---
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-600%2B%20problems-orange)](https://leetcode.com/u/ayush_kumar21_/)
-[![GitHub followers](https://img.shields.io/github/followers/Aayush-engineer?style=social)](https://github.com/Aayush-engineer)
+## Experience
 
-## 📫 Contact
+**ML / Data Pipeline Intern · IIT Jodhpur** *(Apr – Jun 2024)*
+Python preprocessing pipelines for multilingual OCR datasets. OpenCV automation cut manual labeling by 50%. Processed 5,000+ training images.
 
-[LinkedIn](https://www.linkedin.com/in/aayush-kumar-aba034239/) · aayushkumarsingh245@gmail.com · Open to remote and onsite India
+**Software Developer Intern · DRDO Jodhpur** *(May – Jul 2023)*
+REST APIs for vendor/bidding workflows (50+ active projects). JWT auth, RBAC, WebSocket notifications, MongoDB query optimization to sub-second response times.
+
+---
+
+B.Tech CSE · JIET Jodhpur · 2021–2025 · 600+ LeetCode (C++)
+
+<div align="center">
+<sub>aayushkumarsingh245@gmail.com · available for remote and onsite India</sub>
+</div>
