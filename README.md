@@ -21,7 +21,7 @@ I build LLM infrastructure and multi-agent systems — evaluation pipelines, orc
 
 ## Open Source — Mastra AI (24k ⭐ · YC-backed)
 
-**12 PRs merged · #51 of 467 total contributors · #29 of 500+ in last 6 months · reviewed by CTO**
+**18 PRs merged · #47 of 467 total contributors · #29 of 500+ in last 6 months**
 
 | PR | Description |
 |---|---|
