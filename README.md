@@ -21,7 +21,7 @@ I build LLM infrastructure and multi-agent systems — evaluation pipelines, orc
 
 ## Open Source
 
-**30+ merged PRs across two major AI infrastructure projects · 450+ contributions this year · 31+ repositories**
+**30+ merged PRs across two major AI infrastructure projects · 31+ repositories**
 
 ### [Vercel AI SDK](https://github.com/vercel/ai)
 `the most widely-used TypeScript SDK for building AI applications`
