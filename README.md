@@ -21,7 +21,7 @@ I build LLM infrastructure and multi-agent systems — evaluation pipelines, orc
 
 ## Open Source
 
-**30+ merged PRs across two major AI infrastructure projects · 31+ repositories**
+**35+ merged PRs across two major AI infrastructure projects · 31+ repositories**
 
 ### [Vercel AI SDK](https://github.com/vercel/ai)
 `the most widely-used TypeScript SDK for building AI applications`
@@ -32,7 +32,7 @@ I build LLM infrastructure and multi-agent systems — evaluation pipelines, orc
 | [#16532](https://github.com/vercel/ai/pull/16532) | Fixed Zod schema validation in the Perplexity provider — `delta.role` and `delta.content` were over-strict, causing production stream errors on every `sonar-pro` response after the first chunk. |
 
 ### [Mastra AI](https://github.com/mastra-ai/mastra) (25k ⭐ · YC-backed)
-**28+ PRs merged · #42 of 500+ all-time contributors · #23 of 500+ in the last 6 months**
+**30+ PRs merged · #42 of 500+ all-time contributors 
 
 | PR | Description |
 |---|---|
