@@ -38,7 +38,7 @@ I build LLM infrastructure and multi-agent systems — evaluation pipelines, orc
 |---|---|
 | [#14466](https://github.com/mastra-ai/mastra/pull/14466) | Fixed a `impact:high` bug in `prepareToolsAndToolChoice()` — structured-output agents were silently failing when workflow tools were injected; unblocked Gemini structured output for all users |
 | [#14306](https://github.com/mastra-ai/mastra/pull/14306) | Added `prettyPrint` to `PinoLogger` for single-line JSON output compatible with Datadog/Loki/CloudWatch, with no transport rewiring required |
-| +26 more | Memory persistence across chained agent steps, browser thread init stability, JSON schema compatibility, production observability fixes |
+| +28 more | Memory persistence across chained agent steps, browser thread init stability, JSON schema compatibility, production observability fixes |
 
 ---
 
